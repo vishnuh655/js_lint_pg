@@ -8,7 +8,7 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["import", "prettier", "@typescript-eslint"],
+  "plugins": ["@typescript-eslint"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "error",
