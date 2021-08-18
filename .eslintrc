@@ -3,6 +3,7 @@
     "es6": true
   },
   "rules": {
+    "prettier/prettier": "error",
     "no-var": "error",
     "semi": "error",
     "indent": "error",
@@ -11,5 +12,8 @@
     "no-multiple-empty-lines": "error",
     "prefer-const": "error",
     "no-use-before-define": "error"
-  }
+  },
+  "extends": [
+    "plugin:prettier/recommended"
+  ]    
 }
